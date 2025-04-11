@@ -1,0 +1,54 @@
+.inputForm {
+  width: 90%;
+  background: rgb(0, 0, 0, 0.15);
+  border-radius: 50px;
+  box-shadow: 5px 5px 6px -2px #999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  padding: 0 0.5rem;
+}
+
+.inputForm > input,
+button {
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.inputForm > input {
+  width: 0;
+  flex-grow: 1;
+  max-width: 900px; /* Set the maximum width */
+  margin: 0 auto; /* Center the container */
+  background: rgb(0, 0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border-radius: 50px;
+  color: #222;
+}
+.inputForm > input::placeholder {
+  font-size: 18px;
+  color: #aaa;
+}
+
+.inputForm > button {
+  padding: 0.6rem 2rem;
+  color: #fce7c8;
+  text-wrap: nowrap;
+  font-family: "Roboto", sans-serif;
+  background: rgb(243, 113, 153, 0.9);
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 40px;
+  margin: 0.5rem 0;
+  transition: all 0.2s ease;
+}
+
+.inputForm button:hover {
+  transform: scale(1.02);
+  background-color: #e53888;
+  color: #eee;
+}

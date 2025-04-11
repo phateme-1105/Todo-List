@@ -1,0 +1,77 @@
+.todoContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.todos {
+  font-size: 20px;
+  font-weight: 500;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.item {
+  background-color: rgb(248, 244, 225, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 4px -2px #222;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.1s ease-in-out;
+  color: #333;
+}
+
+.item:hover {
+  background-color: rgb(248, 244, 225, 0.3);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+}
+
+.editStart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  margin: 10px;
+}
+.editStart > span {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.editStart button {
+  color: #333;
+}
+.editStart button:hover {
+  color: #000;
+}
+.item > button {
+  color: #ac1754;
+}
+
+.item button:hover {
+  color: rgb(104, 8, 8);
+}
+
+/* Scrollbar styles */
+.todos::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+.todos::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set the color of the thumb */
+  border-radius: 6px; /* Set the border radius of the thumb */
+}
+
+.todos::-webkit-scrollbar-track {
+  background-color: #eee; /* Set the color of the track */
+}
