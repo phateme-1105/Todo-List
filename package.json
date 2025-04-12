@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://phateme-1105.github.io/Todo-List/",
+  "homepage": "https://phateme-1105.github.io/Todo-List",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
